@@ -3,10 +3,14 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { ClickAwayDirective } from './click-away.directive';
+import { HighlightDirective } from './highlight.directive';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ClickAwayDirective,
+    HighlightDirective
   ],
   imports: [
     BrowserModule,
